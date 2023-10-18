@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student-Teacher Relationships</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <h1>Student-Teacher Relationships</h1>
+    
+    <h2>Students</h2>
+    <ul id="student-list">
+        <!-- Students will be displayed here -->
+    </ul>
+    
+    <h2>Teachers</h2>
+    <ul id="teacher-list">
+        <!-- Teachers will be displayed here -->
+    </ul>
+    
+    <h2>Manage Relationships</h2>
+    <form id="relationship-form">
+        <label for="student-select">Select Student:</label>
+        <select id="student-select" name="student_id">
+            <!-- Student options will be dynamically populated here -->
+        </select>
+        
+        <label for="teacher-select">Select Teacher:</label>
+        <select id="teacher-select" name="teacher_id">
+            <!-- Teacher options will be dynamically populated here -->
+        </select>
+        
+        <input type="submit" value="Add Relationship">
+    </form>
+</body>
+</html>
